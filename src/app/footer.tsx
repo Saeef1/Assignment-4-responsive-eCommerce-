@@ -26,7 +26,7 @@ export default function Footer() {
                     </h1>
 
                     <p className="sm:w-[247px] w-auto text-[14px] text-black text-opacity-60 font-medium leading-[22px]">
-                        We have clothes that suits your style and which you're proud to wear. From women to men.
+                        We have clothes that suits your style and which you&apos;re proud to wear. From women to men.
                     </p>
 
                     <div className="w-148px flex gap-3">
