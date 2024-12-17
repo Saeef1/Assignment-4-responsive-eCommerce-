@@ -1,6 +1,13 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import integralCF from "next/font/local";
 import "./globals.css";
+
+const IntegralCF=integralCF({
+  src:"./fonts/Fontspring-DEMO-integralcf-bold.otf",
+  variable:"--integralcf",
+  weight:"100 900"
+})
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,7 +33,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
+        className={`${geistSans.variable} ${geistMono.variable} ${IntegralCF.className} antialiased`}
       >
         {children}
       </body>
