@@ -9,10 +9,6 @@ type cardsProps = {
     discount?: string,
     padding?: string
 }
-let rate: number = 2;
-
-
-
 const pad = `py-[6px] px-[14px] `;
 
 const cards: cardsProps[] =
